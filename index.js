@@ -9,7 +9,7 @@ import { connectDB } from "./src/config/dbConfig.js";
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:5173', // Allow this origin to access the server
+  origin: 'http://localhost:5173, https://zidio-task-management-nine.vercel.app/', // Allow this origin to access the server
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Allowed methods
   credentials: true, // Allow credentials (if needed)
 };
